@@ -8,6 +8,8 @@
 </head>
 <body>
     
+    <a href="latihan1-tambah.html">Tambah Data</a>
+    <h3>Daftar User</h3>
     <div id="tampil"></div>
 
     <script>
@@ -25,7 +27,7 @@
                     tx +='   <td>' +dta.isi[i][0] +'</td>';
                     tx +='   <td>' +dta.isi[i][1] +'</td>';
                     tx +='   <td>' +dta.isi[i][2] +'</td>';
-                    tx +='   <td><a href="latihan1-edit.html?id=' +dta.isi[i][3] +'">edit</a> <a href="latihan1-hapus.html?id=' +dta.isi[i][3] +'">hapus</a></td>';
+                    tx +='   <td><a href="latihan1-edit.html?id=' +dta.isi[i][3] +'">edit</a> <a href="latihan1-delete.html?id=' +dta.isi[i][3] +'">hapus</a></td>';
                     tx +='   </tr>';
                     no++
                 }
